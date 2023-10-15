@@ -1,6 +1,6 @@
 AUTHOR = 'QualiThree'
 SITENAME = 'Getting Started With Dev'
-SITEURL = ''
+SITEURL = 'https://gettingstartedwith.dev'
 
 PATH = 'content'
 
@@ -15,15 +15,17 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-# Blogroll
-LINKS = (('Pelican', 'https://getpelican.com/'),
-         ('Python.org', 'https://www.python.org/'),
-         ('Jinja2', 'https://palletsprojects.com/p/jinja/'),
-         ('You can modify those links in your config file', '#'),)
+LINKS = (
+    ('CreateCoders', 'https://createcoders.com/'),
+    ('QualiThree', 'https://qualithree.com/'),
+    ('WhatHashtag.com', 'https://whathashtag.com/'),
+)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (
+    ('CreateCoders Instagram', 'https://instagram.com/createcoders'),
+    ('CreateCoders Tiktok', 'https://www.tiktok.com/@createcoders'),
+)
 
 DEFAULT_PAGINATION = False
 
