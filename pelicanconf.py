@@ -1,6 +1,6 @@
 AUTHOR = 'QualiThree'
 SITENAME = 'Getting Started With Dev'
-SITEURL = 'https://gettingstartedwith.dev'
+SITEURL = ''
 
 PATH = 'content'
 
@@ -31,3 +31,10 @@ DEFAULT_PAGINATION = False
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+PLUGIN_PATHS = ['./plugins', ]
+PLUGINS = ['i18n_subsites', ]
+JINJA_ENVIRONMENT = {
+    'extensions': ['jinja2.ext.i18n'],
+}
+THEME = 'theme/bootstrap-next/'
