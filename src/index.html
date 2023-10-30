@@ -61,6 +61,11 @@
         .swiper-button-next {
             right: 10px;
         }
+
+        .disabled-link {
+            pointer-events: none; /* Disable mouse events on the link */
+            opacity: 0.5;         /* Make the link look disabled */
+        }
     </style>
 </head>
 <body class="bg-gray-200 font-sans">
@@ -71,7 +76,7 @@
         </div>
         <div class="flex flex-wrap justify-center items-center mb-16">
             <!-- Getting Started with Python -->
-            <a href="https://python.gettingstartedwith.dev" class="card p-5 border rounded-lg hover:bg-gray-100 transition-all duration-300 m-2 flex-shrink-0" style="max-width: calc(40% - 16px);">
+            <a href="https://python.gettingstartedwith.dev" class="card p-5 border rounded-lg hover:bg-gray-100 transition-all duration-300 m-2 flex-shrink-0 disabled-link" style="max-width: calc(40% - 16px);">
                 <div class="icon mb-4 text-center"><i class="fas fa-code text-6xl mx-auto"></i></div>
                 <div class="text text-center text-lg font-semibold">Python</div>
             </a>
